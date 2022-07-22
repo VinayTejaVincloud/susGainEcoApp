@@ -9,6 +9,7 @@ import React, {useEffect} from "react";
 import { View, Text, StyleSheet } from "react-native";
 import SplashScreen from  "react-native-splash-screen";
 import Button from "./src/components/Button";
+import WelcomeScreen from "./src/components/WelcomeScreenIndividual"
 
 const App = () => {
 
@@ -18,8 +19,7 @@ const App = () => {
 
   return (
     <View style={styles.mainContainer} >
-      <Text style={styles.mainAppHeading} > susGain Home Screen</Text>
-      <Button title={"Welcome"} onPressButton={()=>console.log("Welcome to susGain")} />
+      <WelcomeScreen />
     </View>
   )
 }

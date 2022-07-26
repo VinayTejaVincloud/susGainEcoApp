@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
       backgroundColor: "black"
     },
     text1:{
-      fontFamily: "Poppins",
+      fontFamily: "Poppins-Regular",
       fontWeight: "600",
       fontSize: 18,
       lineHeight: 21.6,
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
       paddingLeft: 30, 
     },
     text2: {
-      fontFamily: "Poppins",
+      fontFamily: "Poppins-Regular",
       fontWeight: "800",
       fontSize: 28,
       lineHeight: 36.4,

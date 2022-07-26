@@ -9,7 +9,9 @@ import React, {useEffect} from "react";
 import { View, Text, StyleSheet } from "react-native";
 import SplashScreen from  "react-native-splash-screen";
 import Button from "./src/components/Button";
-import WelcomeScreen from "./src/components/WelcomeScreenIndividual"
+import PageBackground from "./src/components/PageBackground";
+import WelcomeScreen from "./src/components/welcomeScreenIndividual"
+import Home from "./src/pages/home/home";
 
 const App = () => {
 
@@ -19,7 +21,9 @@ const App = () => {
 
   return (
     <View style={styles.mainContainer} >
-      <WelcomeScreen />
+       <PageBackground>
+          <Home/>
+       </PageBackground>
     </View>
   )
 }
